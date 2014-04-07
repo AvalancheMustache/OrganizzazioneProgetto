@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Sviluppo di un prototipo di drone per la ricerca in valanga." company="Diparitmento di Ingegneria Industriale, corso di laurea magistrale in ingegneria meccatronica." webLink="http://avalanchemustache.github.io/" view-date="2014-03-01" view-index="0" gantt-divider-location="537" resource-divider-location="578" version="2.0" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Sviluppo di un prototipo di drone per la ricerca in valanga." company="Diparitmento di Ingegneria Industriale, corso di laurea magistrale in ingegneria meccatronica." webLink="http://avalanchemustache.github.io/" view-date="2014-02-01" view-index="0" gantt-divider-location="639" resource-divider-location="578" version="2.0" locale="en_US">
     <description/>
     <view zooming-state="default:10" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="45" order="0"/>
-        <field id="tpd4" name="Data d'inizio" width="13" order="1"/>
-        <field id="tpd5" name="Data di fine" width="13" order="2"/>
-        <field id="tpd8" name="Coordinatore" width="27" order="3"/>
+        <field id="tpd3" name="Name" width="60" order="0"/>
+        <field id="tpd4" name="Begin date" width="13" order="1"/>
+        <field id="tpd5" name="End date" width="13" order="2"/>
+        <field id="tpd8" name="Coordinator" width="12" order="3"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nome" width="100" order="0"/>
+        <field id="0" name="Name" width="100" order="0"/>
     </view>
     <!-- -->
     <calendars>
@@ -60,15 +60,10 @@
         <task id="12" name="Definizione questionario on-line" color="#8cb6ce" meeting="false" start="2014-04-04" duration="7" complete="100" expand="true">
             <notes><![CDATA[ Il questionario on-line, è stato creato per raccogliere informazioni dettagliate al fine di avere una formazione sull'argomento, sufficiente per poter stilare una specifica tecnica del prodotto in questione adeguata]]></notes>
             <depend id="16" type="2" difference="0" hardness="Strong"/>
-            <depend id="35" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="20" name="Creazione diagramma di gannt" color="#8cb6ce" meeting="false" start="2014-04-03" duration="46" complete="10" expand="true"/>
         <task id="16" name="Incontri soccorso alpino" color="#8cb6ce" meeting="false" start="2014-04-11" duration="14" complete="0" expand="true">
             <notes><![CDATA[Verranno fatti degli incontri per avere la possibilità di chiarire  eventuali dubbi sulle tecniche di ricerca attualmente in uso e sulle problematiche che possono sorgere in situazioni di ricerca di dispersi in valanga; nonchè per comprendere a pieno i principi di funzionamento dei principali dispositivi di ricerca in valanga.]]></notes>
-            <depend id="38" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="35" name="Incontri vigili del fuoco" color="#8cb6ce" meeting="false" start="2014-04-11" duration="14" complete="0" expand="true">
-            <notes><![CDATA[Incotri atti a comprendere le procedure e le strategie adottae in situazioni di soccorso.]]></notes>
             <depend id="38" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="38" name="Definizione specifica tecnica" color="#cc0000" meeting="false" start="2014-04-26" duration="14" complete="0" priority="4" expand="true">
@@ -129,13 +124,12 @@
         <task id="102" name="Scrittura tesi" color="#8cb6ce" meeting="false" start="2014-11-15" duration="57" complete="0" expand="true"/>
     </tasks>
     <resources>
-        <resource id="0" name="Ermes Floriani" function="Default:1" contacts="ermes.floriani@gmail.com" phone="3484044366"/>
-        <resource id="1" name="Matteo Ragni" function="Default:1" contacts="nirvana1289@gmail.it" phone=""/>
+        <resource id="0" name="EF" function="Default:1" contacts="ermes.floriani@gmail.com" phone="3484044366"/>
+        <resource id="1" name="MR" function="Default:1" contacts="matteo.ragni.it@gmail.com" phone="3491901149"/>
     </resources>
     <allocations>
         <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="20" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="35" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="16" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="38" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="43" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
@@ -152,7 +146,6 @@
         <allocation task-id="100" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="10" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="12" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="35" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="16" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="38" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="43" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
@@ -178,10 +171,10 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="245" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="72" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="72" visible="true"/>
-        <displaycolumn property-id="tpd8" order="3" width="144" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="384" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="85" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="86" visible="true"/>
+        <displaycolumn property-id="tpd8" order="3" width="80" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
